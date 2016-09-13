@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="myCanvas" style="border: 1px solid;" width="300" height="150">
+</canvas>
+<script type="text/javascript">
+var c=document.getElementById("myCanvas");
+var context=c.getContext("2d");
+context.fillStyle="red";
+context.beginPath();
+context.moveTo(25,25);
+context.lineTo(150,25);
+context.lineTo(25,150);
+context.stroke();
+</script>
+</body>
+</html>
